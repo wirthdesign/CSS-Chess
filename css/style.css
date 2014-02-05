@@ -1,0 +1,39 @@
+body { font:normal 12px/18px helvetica,arial; }
+
+a:link      { color:#0096bf; }
+a:hover    { color:#0096bf; }
+a:active  { color:#0096bf; }
+a:visited{ color:#0096bf; }
+
+@font-face {
+    font-family: 'KingthingsCalligraphicaRegula';
+    src: url('/fonts/Kingthings_Calligraphica-webfont.eot');
+    src: url('/fonts/Kingthings_Calligraphica-webfont.eot?iefix') format('eot'),
+         url('/fonts/Kingthings_Calligraphica-webfont.woff') format('woff'),
+         url('/fonts/Kingthings_Calligraphica-webfont.ttf') format('truetype'),
+         url('/fonts/Kingthings_Calligraphica-webfont.svg#webfontfFd289Pk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wrapper { width:1024px; margin:0 auto;}
+
+/* Welcome
+* ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** */
+#welcome { width:600px; margin:0 auto; clear:both; }
+.title { font:bold 48px/48px KingthingsCalligraphicaRegula; padding:0; margin:0 0 20px; }
+.black { background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(0,0,0)), color-stop(1, rgb(51,51,51)) ); background-image: -moz-linear-gradient(center bottom, rgb(0,0,0) 0%, rgb(51,51,51) 100%); }
+.white { background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(221,221,221)) ); background-image: -moz-linear-gradient(center bottom, rgb(255,255,255) 0%, rgb(221,221,221) 100%); }
+#refresh { width:70px; height:25px; display:block; margin:0 auto; clear:both; }
+
+/* Player Black
+* ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** */
+#player-black { width:192px; height:192px; margin:25px 10px 0 0; display:block; float:left; }
+#player-black  .pic { -moz-transform:rotate(-10deg); -webkit-transform:rotate(-10deg); transform:rotate(-10deg); -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; }
+#player-black .black { color:#fff; border:4px solid #eee; padding:10px; position:relative; top:-20px; -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; }
+
+/* Player White
+* ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** */
+#player-white { width:192px; height:192px; margin:350px 0 0; display:block; float:right; }
+#player-white  .pic { -moz-transform:rotate(10deg); -webkit-transform:rotate(10deg); transform:rotate(10deg); -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; }
+#player-white .white { color:#000; border:4px solid #111; padding:10px; position:relative; top:-20px; -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; }

@@ -1,0 +1,10 @@
+/* Board 
+* ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** * ** */
+#board { width:600px; height:600px; margin:0 auto; float:left; overflow:hidden; position:relative; border:1px solid #333; -moz-box-shadow: 0 0 5px #888; -webkit-box-shadow: 0 0 5px#888; box-shadow: 0 0 5px #888; }
+
+.black-pawn-1, .black-pawn-2, .black-pawn-3, .black-pawn-4, .black-pawn-5, .black-pawn-6, .black-pawn-7, .black-pawn-8, .black-rook-1, .black-rook-2, .black-knight-1, .black-knight-2, .black-bishop-1, .black-bishop-2, .black-king, .black-queen { position:absolute; }
+
+.white-pawn-1, .white-pawn-2, .white-pawn-3, .white-pawn-4, .white-pawn-5, .white-pawn-6, .white-pawn-7, .white-pawn-8, .white-rook-1, .white-rook-2, .white-knight-1, .white-knight-2, .white-bishop-1, .white-bishop-2, .white-king, .white-queen { position:absolute; }
+
+.a1, .c1, .e1, .g1, .b2, .d2, .f2, .h2, .a3, .c3, .e3, .g3, .b4, .d4, .f4, .h4, .a5, .c5, .e5, .g5, .b6, .d6, .f6, .h6, .a7, .c7, .e7, .g7, .b8, .d8, .f8, .h8 { width:75px; height:75px; display:block; float:left; background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(0,0,0)), color-stop(1, rgb(51,51,51)) ); background-image: -moz-linear-gradient(center bottom, rgb(0,0,0) 0%, rgb(51,51,51) 100%); }
+.b1, .d1, .f1, .h1, .a2, .c2, .e2, .g2, .b3, .d3, .f3, .h3, .a4, .c4, .e4, .g4, .b5, .d5, .f5, .h5, .a6, .c6, .e6, .g6, .b7, .d7, .f7, .h7, .a8, .c8, .e8, .g8 { width:75px; height:75px; display:block; float:left; background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, rgb(255,255,255)), color-stop(1, rgb(221,221,221)) ); background-image: -moz-linear-gradient(center bottom, rgb(255,255,255) 0%, rgb(221,221,221) 100%); }

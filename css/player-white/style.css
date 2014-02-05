@@ -1,0 +1,32 @@
+/* ** * ** * ** * ** * ** * ** * ** * 
+
+Welcome White Player! I hope your CSS
+skills do you well in battle in today.
+
+Each square on the board is 75 pixels
+by 75 pixels. Good luck!
+
+* ** * ** * ** * ** * ** * ** * ** */
+
+.white-pawn-1 { top:0; right:75px; }
+.white-pawn-2 { top:75px; right:75px; }
+.white-pawn-3 { top:150px; right:75px; }
+.white-pawn-4 { top:225px; right:75px; }
+.white-pawn-5 { top:300px; right:75px; }
+.white-pawn-6 { top:375px; right:75px; }
+.white-pawn-7 { top:450px; right:75px; }
+.white-pawn-8 { top:525px; right:75px; }
+
+.white-rook-1 { top:0; right:0; }
+.white-rook-2 { top:525px; right:0; }
+
+.white-knight-1 { top:75px; right:0; }
+.white-knight-2 { top:450px; right:0; }
+
+.white-bishop-1 { top:150px; right:0; }
+.white-bishop-2 { top:375px; right:0; }
+
+.white-queen { top:225px; right:0; }
+
+.white-king { top:300px; right:0; }
+

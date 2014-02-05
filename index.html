@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>CSS Chess</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	<link href="css/style.css" rel="stylesheet" media="screen" />
+	
+<!-- 
+	<script>
+	window.setInterval(moveIt, 10000);
+	function moveIt() {
+		document.getElementById('board').contentWindow.location.reload()
+	}
+	</script>
+ -->
+	
+</head>
+<body>
+
+<div id="wrapper">
+
+	<div id="welcome">
+		<h1 class="title">CSS Chess</h1>
+		<h3>How Does It Work?</h3>
+		<p>Each player is given FTP access to a CSS stylesheet that controls their players pieces. The players then use their chess skills along with
+		CSS knowledge to manipulate their pieces.</p>
+		
+		<p>If your interested in playing or helping make CSS Chess better send me a reply on Twitter <a href="http://twitter.com/wirthdesign">@WirthDesign</a></p>
+	</div>
+
+	<div id="player-black">
+		<img src="/img/player-black/pic.jpg" width="192" height="192" alt="Player Black" class="pic" />
+		
+		<p class="black">
+			<strong>Name:</strong> Kevin<br />
+			<strong>Twitter:</strong> <a href="http://twitter.com/wirthdesign">@WirthDesign</a>
+		</p>
+	</div>
+	
+	<iframe src="board.html" id="board" width="615" height="615" frameborder="0">
+		<p>Your browser does not support iframes.</p>
+	</iframe>
+	
+	<div id="player-white">
+		<img src="/img/player-white/pic.jpg" width="192" height="192" alt="Player White" class="pic" />
+		
+		<p class="white">
+			<strong>Name:</strong> Kevin<br />
+			<strong>Twitter:</strong> <a href="http://twitter.com/wirthdesign">@WirthDesign</a>
+		</p>
+	</div>
+
+	<input type="button" id="refresh" value="Refresh" onClick="document.getElementById('board').contentWindow.location.reload()" />
+	
+</div>
+	
+</body>
+</html>

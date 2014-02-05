@@ -1,0 +1,31 @@
+/* ** * ** * ** * ** * ** * ** * ** * 
+
+Welcome Black Player! I hope your CSS
+skills do you well in battle in today.
+
+Each square on the board is 75 pixels
+by 75 pixels. Good luck!
+
+* ** * ** * ** * ** * ** * ** * ** */
+
+.black-pawn-1 { top:0; left:75px; }
+.black-pawn-2 { top:75px; left:75px; }
+.black-pawn-3 { top:150px; left:75px; }
+.black-pawn-4 { top:225px; left:75px; }
+.black-pawn-5 { top:300px; left:75px; }
+.black-pawn-6 { top:375px; left:75px; }
+.black-pawn-7 { top:450px; left:75px; }
+.black-pawn-8 { top:525px; left:75px; }
+
+.black-rook-1 { top:0; left:0; }
+.black-rook-2 { top:525px; left:0; }
+
+.black-knight-1 { top:75px; left:0; }
+.black-knight-2 { top:450px; left:0; }
+
+.black-bishop-1 { top:150px; left:0; }
+.black-bishop-2 { top:375px; left:0; }
+
+.black-queen { top:225px; left:0; }
+
+.black-king { top:300px; left:0; }
